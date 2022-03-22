@@ -7,6 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  .dark{
+    background-color: #0e202e;
+  }
+  .light{
+    background-color: white;
+  }
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+}
+
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
