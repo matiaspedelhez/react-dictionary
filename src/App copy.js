@@ -10,7 +10,9 @@ function App() {
   async function getWord() {
     try {
       const { data } = await axios.get(
-        `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`
+        `https://api.dictionaryapi.dev/api/v2/entries/en/${
+          word ? word : "Coffee"
+        }`
       );
       setResponse({
         word: data[0].word,
