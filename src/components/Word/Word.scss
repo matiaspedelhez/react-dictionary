@@ -26,6 +26,46 @@
         cursor: pointer;
     }
 }
+
+.word-type{
+    font-style: italic;
+    font-weight: 400;
+}
+
+.definition {
+    display: flex;
+    margin: 1rem 0;
+    font-weight: 400;
+    p{
+        margin: 0;
+    }
+    .index{
+        min-width: 2.5rem;
+        text-align: center;
+        font-size: 0.75rem;
+        top: 0;
+        user-select: none;
+        color:#9E9E9E;
+    }
+    .definition-text{
+        margin:0;
+    }
+    .definition-example{
+        margin-top: 0.25rem;
+        font-weight: 300;
+        font-style: italic;
+    }
+}
+
+.play-sound{
+    user-select: none;
+    user-drag: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 .dark{
     color:white
 }
